@@ -6,7 +6,7 @@ Welcome to my collection of Data Science projects! This repository tracks my jou
 ### Week 1: Personal Introduction Program
 * **Description:** A Python-based interactive tool that captures user data and provides a personalized welcome message.
 * **Concepts Used:** Python Variables, `input()` function, String Formatting (f-strings), and Basic IPO (Input-Output) logic.
-* **File:** [personal_intro.py](./personal_intro.py)
+* **File:** [personal_intro.py](./[personal_intro.py](https://colab.research.google.com/drive/1gpORuYIj1A6E2qeTDRH_JEA2ahGwTQGg))
 
 ---
 
