@@ -17,7 +17,7 @@ Welcome to my collection of Data Science projects! This repository tracks my jou
 
 ## 📈 Learning Path
 - [x] Week 1: Python Programming Basics
-- [ ] Week 2: Week 2: Making Decisions & Repeating Tasks in Python 
+- [x] Week 2: Week 2: Making Decisions & Repeating Tasks in Python 
 - [ ] Week 3: Introduction to Data Analysis - Working with Real Data (Coming Soon)
 - [ ] Week 4: Data Visualization & Your First Complete Project (Coming Soon)
 - [ ] Week 5: Advanced Data Manipulation with Pandas (Coming Soon)
