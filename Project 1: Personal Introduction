@@ -59,7 +59,6 @@ Suggested improvements
 Convert notebook to a cleaned personal_introduction.py with a main() function and:
 python
 
-
 if __name__ == "__main__":
     main()
 Add input validation (e.g., check that age is numeric).
