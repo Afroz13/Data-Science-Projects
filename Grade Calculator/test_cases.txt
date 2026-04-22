@@ -1,0 +1,51 @@
+# test_grade_calculator.py
+import pytest
+from student_grade_calculator import calculate_grade, encouraging_message, validate_marks
+
+# Grade boundary tests
+def test_grade_A_bounds():
+    assert calculate_grade(90) == "A"
+    assert calculate_grade(100) == "A"
+
+def test_grade_B_bounds():
+    assert calculate_grade(80) == "B"
+    assert calculate_grade(89) == "B"
+
+def test_grade_C_bounds():
+    assert calculate_grade(70) == "C"
+    assert calculate_grade(79) == "C"
+
+def test_grade_D_bounds():
+    assert calculate_grade(60) == "D"
+    assert calculate_grade(69) == "D"
+
+def test_grade_F_bounds():
+    assert calculate_grade(0) == "F"
+    assert calculate_grade(59) == "F"
+
+# Validation tests
+def test_validate_marks_out_of_range_negative():
+    with pytest.raises(ValueError):
+        validate_marks(-1)
+
+def test_validate_marks_out_of_range_high():
+    with pytest.raises(ValueError):
+        validate_marks(101)
+
+def test_validate_marks_non_numeric():
+    with pytest.raises(ValueError):
+        validate_marks("abc")
+
+# Float handling (adjust if your policy differs)
+def test_validate_marks_float_and_grade():
+    valid = validate_marks(85.0)  # expect conversion or acceptance
+    assert isinstance(valid, int)
+    assert calculate_grade(valid) == "B"
+
+# Encouraging message checks
+def test_encouraging_messages_contents():
+    assert "Excellent" in encouraging_message("A")
+    assert "Keep it up" in encouraging_message("B")
+    assert "Good effort" in encouraging_message("C")
+    assert "You're getting there" in encouraging_message("D")
+    assert "Don't be discouraged" in encouraging_message("F")
