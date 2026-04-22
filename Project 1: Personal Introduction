@@ -1,0 +1,68 @@
+Personal Introduction Program
+Simple interactive Python program that demonstrates basic Input → Processing → Output (IPO) concepts.
+
+Description
+This program prompts the user for their name, age, and hobbies, then prints a friendly welcome message using formatted strings. It is designed for beginners learning how to handle input, store values, and display output in Python.
+
+Files
+Project_Personal_Introduction_Program.ipynb — Colab notebook (original code & outputs)
+personal_introduction.py — (optional) standalone .py version for local use
+screenshot.png — visual proof of a sample run
+
+How to run
+Option 1 — Google Colab
+
+Click the "Open In Colab" badge above.
+Run the notebook cells (Runtime → Run all).
+Provide inputs when prompted.
+Option 2 — Locally
+
+Ensure Python 3.8+ is installed.
+If you have personal_introduction.py, run:
+
+  code:
+python personal_introduction.py
+Enter your name, age, and hobbies when prompted.
+
+Code (core logic)
+Extracted from the notebook for quick reference:
+# Welcome banner
+print("  Hellow world ! \n  My name Is MD AFROZ ANSARI \n \t Welcome to new world of coding in Data science ........")
+
+# Gather inputs
+name = input("What is your Name? \t")
+age = input("What is your age ? \t")
+Hobby = input("What are your Hobbies ? \t ")
+
+# Output
+print(f" Welcome {name} ! ")
+print(f"You are {age} years old and love to {Hobby}")
+
+Technical Details
+Architecture: Linear flow (prompt → read → print)
+Input handling: Tab character (\t) used in prompts for visual alignment
+Variables: name (str), age (str), Hobby (str)
+Formatting: f-strings used to create user-friendly messages
+Error handling: Not included in the original notebook — consider adding validation (e.g., ensure age is numeric)
+Test Case (from notebook)
+Name: MD Afroz Ansari
+Age: 24
+Hobbies: Playing, Travelling, Swimming
+Expected output (example):
+  Code:
+Welcome MD Afroz Ansari !
+You are 24 years old and love to  Playing, Travelling, Swimming
+
+Result: SUCCESSFUL (screenshot included)
+
+Suggested improvements
+Convert notebook to a cleaned personal_introduction.py with a main() function and:
+python
+
+
+if __name__ == "__main__":
+    main()
+Add input validation (e.g., check that age is numeric).
+Use consistent, lowercase variable names.
+Add unit tests or simple input/output test cases.
+Update screenshot.png to show the latest run.
