@@ -1,0 +1,4 @@
+Requirements are as follows: 
+
+1. jupyter
+2. ipykernel

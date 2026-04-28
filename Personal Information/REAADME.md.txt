@@ -1,0 +1,33 @@
+1. Project Overview
+Goal: Build an interactive Python program that accepts a student’s name and marks, validates input, computes a grade using if‑elif‑else logic, and returns an encouraging message along with a formatted result.
+Objectives:
+● To capture user data using the input() function. 
+● To store different data types (Strings and Integers) in appropriately named variables.
+● To practice data formatting using f-strings to create a user-friendly and personalized experience. 
+2. Setup Instructions
+To run this project on your own machine or in the cloud, follow these steps:
+1.	Environment: Open Google Colab or any Python IDE.
+2.	File Creation: Create a new file named personal_intro.py.
+3.	 Execution: Press the Play button in Colab or run python personal_intro.py in a terminal.
+4.	Interaction: Enter your details when prompted by the program.
+3. Code Structure
+The project is organized to be modular and easy to read. Below is the file hierarchy:
+Data-Science-Projects (Repository Root) 
+├── personal_intro.py # Main Python script containing the code logic 
+├──  README.md # Project description and overview 
+└── Screenshot.png # Visual proof of the working program 
+
+5. Technical Details
+This program follows a Linear Architecture, executing from top to bottom.
+●	Input Handling: I used the \t escape character within the input() function to create a clean, tabbed space for the user to type their answers.
+●	Variables: name, age, and Hobby store the captured data. Note that Python is case-sensitive, so Hobby is treated as a distinct container.
+●	Data Processing: I used f-strings (formatted string literals). This is the modern Data Science standard for injecting variables directly into text without complex addition signs.
+________________________________________
+6. Testing Evidence (Updated)
+I validated the program by running a full end-to-end test with specific user data.
+Validation Test Case:
+●	Name Input: "MD Afroz Ansari"
+●	Age Input: "24"
+●	Hobby Input: "Playing, Travelling, Swimming"
+●	Expected Behavior: The program should print a two-line welcome message using these specific values.
+●	Result:  SUCCESSFUL.
