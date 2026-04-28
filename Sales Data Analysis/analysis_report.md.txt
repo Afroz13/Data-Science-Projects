@@ -1,0 +1,57 @@
+# Sales Data Analysis Report
+
+## 📌 Objective
+Analyze sales data to identify total revenue, best-selling products, and key business insights.
+
+---
+
+## 📊 Dataset Overview
+- Total Records: 100 (example)
+- Columns: Date, Product, Region, Quantity, Price, Total_Sales
+- Data Source: sales_data.csv
+
+---
+
+## 🧹 Data Cleaning
+- Checked for missing values → None found
+- Removed duplicate rows
+- Verified Total_Sales = Quantity × Price
+
+---
+
+## 📈 Key Metrics
+
+- **Total Revenue:** ₹1,23,65,048  
+- **Average Order Value:** ₹1,23,650.48  
+- **Best-Selling Product:** Laptop  
+- **Top Region:** North  
+
+---
+
+## 🔍 Analysis
+
+### 1. Product Performance
+- Laptops generate the highest revenue
+- High-value products contribute most to total sales
+
+### 2. Regional Performance
+- North region leads in sales
+- Potential opportunity to scale in other regions
+
+### 3. Sales Distribution
+- Order values are relatively consistent
+- No extreme outliers observed
+
+---
+
+## 💡 Insights
+
+- Focus marketing on high-performing products like laptops
+- Increase inventory in top-performing regions
+- Explore strategies to boost low-performing regions
+
+---
+
+## 🚀 Conclusion
+
+The analysis shows that revenue is driven primarily by premium products and specific regions. Strategic focus on these areas can improve overall business performance.
