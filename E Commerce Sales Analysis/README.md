@@ -26,7 +26,7 @@ This project focuses on analyzing e-commerce sales data to identify key business
 	│ ├── monthly_sales.png
 	│
 	├── report/
-	│ └── final_report.md
+	│ └── eport.md
 	│
 	├── analysis.ipynb
 	├── README.md
