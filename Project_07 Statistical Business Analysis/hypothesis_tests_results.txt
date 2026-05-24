@@ -1,0 +1,17 @@
+Hypothesis Tests Results
+
+
+T-TEST RESULT
+T-statistic: 2.0202108796829767
+P-value: 0.049619032636626016
+Reject H0 -> Significant difference exists
+
+ANOVA TEST RESULT
+F-statistic: 1.9396625869436088
+P-value: 0.1532892261448185
+Fail to reject H0 -> No significant difference
+
+ONE-SAMPLE T-TEST
+T-statistic: 5.88630887332956
+P-value: 7.254777576225509e-09
+Reject H0 -> Average monthly charge is significantly different
