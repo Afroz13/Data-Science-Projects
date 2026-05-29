@@ -1,0 +1,40 @@
+Requirements: 
+
+	Tool / Library			Purpose
+
+	1. pandas>=2.0.0		Data analysis and manipulation
+	2. numpy>=1.24.0		Numerical computations
+	3. matplotlib>=3.7.0		Basic plotting
+	4. seaborn>=0.12.0		Statistical visualizations
+	5. plotly>=5.18.0		Interactive dashboards
+	6. jupyter>=1.0.0		Notebook environment
+	7. notebook>=7.0.0		Jupyter notebook support
+	8. ipywidgets>=8.0.0		Interactive notebook widgets
+	9. scipy>=1.10.0		Statistical operations
+	10 python-dateutil>=2.8.2	Date parsing
+	11. scikit-learn		machine learning and predictive data analysis
+
+
+Use pip install -r requirements.txt to install.
+
+How To Install From requirements.txt
+
+Run this command:	pip install -r requirements.txt
+
+
+Setup & Installation Instructions
+
+Step 1 — Clone Repository
+git clone <your-github-repository-link>
+
+Step 2 — Install Required Libraries
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+
+Step 3 — Launch Jupyter Notebook
+jupyter notebook
+
+Step 4 — Open Project Notebooks
+Run notebooks in sequence:
+1_data_cleaning.ipynb
+2_eda.ipynb
+3_analysis.ipynb
